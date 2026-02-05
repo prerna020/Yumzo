@@ -1,6 +1,7 @@
 import React from "react";
 import { FaAngleDown } from "react-icons/fa";
 import FoodSection from "./components/FoodSection.jsx";
+import Login from "./components/Login.jsx";
 
 const App = () => {
   return (
@@ -45,6 +46,7 @@ const App = () => {
       </section>
 
       <FoodSection />
+      <Login/>
     </>
   );
 };
