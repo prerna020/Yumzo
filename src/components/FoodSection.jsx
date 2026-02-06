@@ -8,6 +8,7 @@ const FoodSection = () => {
       <FoodItem image='/images/burger.png' label='Burger' direction="from-right" />
       <FoodItem image='/images/noodles.png' label='Noodles' direction="from-left"/>
       <FoodItem image='/images/drink.png' label='Drinks' direction="from-right"/>
+      <FoodItem image='/images/drink.png' label='Drinks' direction="from-left"/>
     </div>
   )
 }
