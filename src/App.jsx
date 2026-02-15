@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom"
+import {Routes, Route } from "react-router-dom"
 import { FaAngleDown } from "react-icons/fa"
 
 import FoodSection from "./components/FoodSection"
@@ -31,7 +31,7 @@ const Landing = () => {
             <span className="italic">zo</span>
           </h1>
           <p className="text-xl">
-            Discover the best food & restaurants near you
+            Discover the best food near you
           </p>
         </div>
 
@@ -50,13 +50,16 @@ const Landing = () => {
 
 const App = () => {
   return (
-    <Routes>
-      <Route path="/" element={<Landing />} />
-      <Route path="/login" element={<Login />} />
-      <Route path="/signup" element={<Signup />} />
-      <Route path="/home" element={<Home />} />
-    </Routes>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/home" element={<Home />} />
+
+      </Routes>
+
   )
 }
+
 
 export default App
