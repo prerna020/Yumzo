@@ -15,9 +15,11 @@ function Card({ item }) {
   };
   return (
     <div className="bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition w-64 h-100 flex flex-col justify-between ml-5">
-      <div className="h-50 bg-gray-200 rounded-md mb-3 flex items-center justify-center text-gray-500">
-        🍽️ Image
-      </div>
+     <img
+     src={item.image}
+     alt={item.name}
+     className="h-50 w-full object-cover rounded-md mb-3"
+      />
 
       <div>
         <h3 className="text-lg font-semibold">{item.name}</h3>
